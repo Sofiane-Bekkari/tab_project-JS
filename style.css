@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+.title {
+    color: #102a42;
+    text-transform: capitalize;
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+}
+h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+.text-title {
+    font-size: .9rem;
+    letter-spacing: 0.5px;
+}
+
+/* artical center */
+.about-center {
+    width: 90%;
+    margin: 0 auto;
+}
+/* button container */
+
+.btn-container {
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.966);
+    width: 100%;
+    display: flex;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding:0;
+    margin: 1rem 0 0 0;
+    box-sizing: border-box;
+}
+.tab-btn {
+    width: 33.33%;
+    margin:0 ;
+    background-color: aquamarine;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #102a42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+}
+/* btn right left radius */
+.btn-l {
+    border-top-right-radius: 8px;
+}
+.btn-r {
+    border-top-left-radius: 8px;
+}
+/* hover effect */
+.tab-btn:hover {
+    background-color: #2edba7;
+    color:azure;
+}
+
+img {
+    width:100%;
+    border-radius: 5px;
+    background-size:cover;
+}
+
+/* about content */
+.about-content {
+    padding: 1rem;
+}
+h4 {
+    color:#102a42;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.content {
+    color: #555;
+}
