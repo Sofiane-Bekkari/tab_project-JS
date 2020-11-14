@@ -56,7 +56,7 @@ img:hover{
 
 .btn-container {
     text-align: center;
-    background-color: rgba(127, 255, 212, 0.966);
+    background-color: #7fffd4f6;
     width: 100%;
     display: flex;
     border-top-right-radius: 8px;
@@ -65,6 +65,47 @@ img:hover{
     margin: 1rem 0 0 0;
     box-sizing: border-box;
 }
+/* title charge */
+.charge {
+    text-align: center;
+    text-transform: capitalize;
+    color:#102a42;
+}
+
+/* list items */
+.offer-id {
+    text-align: center;
+}
+.list-items {
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+li {
+    padding: .2rem 0;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #333333;
+    transition: all .5s;
+}
+
+a:hover {
+    letter-spacing: 3px;
+}
+
+/* diamond img */
+.diamond {
+    width: 18px;
+    margin: 0 .2rem;
+    display: inline-block;
+}
+
 .tab-btn {
     width: 33.33%;
     margin:0 ;
@@ -168,6 +209,13 @@ footer {
     img {
         width: 100%;
         height: 260px;
+    }
+
+    /* diamond img */
+    .diamond {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
     }
 
     .tab-btn {
