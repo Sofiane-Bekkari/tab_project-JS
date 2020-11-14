@@ -13,6 +13,12 @@ body {
     padding: 1rem;
     text-align: center;
 }
+
+/* special words */
+span {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 h1 {
     font-size: 1.8rem;
     letter-spacing: 2px;
@@ -72,19 +78,20 @@ img:hover{
     color:#102a42;
 }
 
-/* list items */
+/* list items 
 .offer-id {
-    text-align: center;
-}
+  
+} */
 .list-items {
     padding: 0;
     list-style: none;
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 li {
     padding: .2rem 0;
+    margin: 0;
     text-transform: capitalize;
 }
 
@@ -96,7 +103,7 @@ a {
 }
 
 a:hover {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 /* diamond img */
@@ -111,7 +118,7 @@ a:hover {
     margin:0 ;
     background-color: aquamarine;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #102a42;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -160,7 +167,7 @@ h4 {
 
 /* footer */
 footer {
-    margin-top: 5rem;
+    margin-top: 9rem;
     background-color: #102a42 ;
     text-align: center;
     text-transform: capitalize;
@@ -198,7 +205,7 @@ footer {
         display: flex;
         width: 90%;
         padding: 0 1rem;
-        height: 50vh;
+        height: 100%;
     }
     .pic {
         margin-top: 1rem;
@@ -209,6 +216,16 @@ footer {
     img {
         width: 100%;
         height: 260px;
+    }
+
+    /* offer */
+    .offer-id {
+        padding-top: 0;
+        margin-top: 0;
+        height: 100%;
+    }
+    h4 {
+        margin: 0;
     }
 
     /* diamond img */
@@ -224,6 +241,7 @@ footer {
 
     .about {
         width: 48%;
+        height: 100%;
         margin: 0 auto;
     }
     .footer-center {
