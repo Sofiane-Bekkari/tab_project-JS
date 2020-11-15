@@ -19,17 +19,24 @@ span {
     font-weight: bolder;
     text-transform: uppercase;
 }
+#header {
+    margin-top: 5rem;
+}
 h1 {
     font-size: 1.8rem;
     letter-spacing: 2px;
 }
 .text-title {
-    font-size: .97rem;
-    color: #555;
+    font-size: 1.2rem;
+    color: #102a42;
     padding: 0 1rem;
     line-height: 1.7rem;
     letter-spacing: 1px;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
+}
+p {
+    text-transform: none;
+    line-height: 1.7rem;
 }
 
 /* artical center */
